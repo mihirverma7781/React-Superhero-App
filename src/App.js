@@ -1,9 +1,16 @@
 import React from 'react';
+import Navbar from './Navbar';
+import SearchBar from './SearchBar';
+import SearchResults from './SearchResults';
 
 function App() {
   return (
     <div className="App">
-     Hello world
+     <Navbar/>
+     <div className="main">
+     <SearchBar/>
+     <SearchResults/>
+     </div>
     </div>
   );
 }
